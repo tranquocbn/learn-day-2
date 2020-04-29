@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;}
+div.container {
+	width: 90%;
+	height: 100px;
+	background-color: #333;
+	color: #fff;
+	margin: 10px auto;
+}
+
+h1 {
+	width: 50%;
+	text-align: center;
+	margin: 10px auto;
+}
+
+button#btn_show, button#btn_show:hover {
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	color: #fff;
+	border: none;
+	border-radius: 30px;
+	margin: auto;
+	display: block;
+
+}
+
+button#btn_show:hover {
+	background-color: green;
+}
